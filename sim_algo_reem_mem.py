@@ -8,7 +8,7 @@ segmentos = [('.text', 0x00, 0x1A),
              ('.stack', 0xC0, 0x22)]
 
 def procesar(segmentos, reqs, marcos_libres):
-    tam_pagina = 32
+    tam_pagina = 16
     memoria = {}
     fifo_queue = []
     results = []
